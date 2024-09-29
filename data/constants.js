@@ -169,7 +169,7 @@ export const Projects = [
 'https://i.postimg.cc/pLFmBjTS/project-4.png' ,
 'https://i.postimg.cc/j5sCKkXV/project-5.png' ,
 // 'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
-// 'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
+'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
 'https://i.postimg.cc/RhwMH7G1/project-7.png' ,
 'https://i.postimg.cc/wTHtkMJx/project-8.png' ,
   ],
