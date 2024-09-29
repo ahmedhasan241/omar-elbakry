@@ -3,7 +3,7 @@
 <template>
   <section id="about" class="flex flex-col gap-10 py-4 sm:pb-10">
     <div
-      class="flex p-0.5 relative w-[150px] md:w-[350px] h-[165px] md:h-[380px] rounded-full mx-auto"
+      class="flex p-0.5 relative w-[150px] md:w-[350px] h-[165px] md:h-[381px] rounded-full mx-auto"
       v-motion-fade-visible-once
     >
       <div
@@ -18,7 +18,7 @@
         loading="eager"
         src="https://i.postimg.cc/T1pwGZrN/IMG-5205.jpg"
         alt="programming"
-        class="w-[150px] md:w-[375px] h-[160px] md:h-[375px] rounded-full object-cover z-[2]"
+        class="w-[150px] md:w-[375px] h-[160px] md:h-[376px] rounded-full object-cover z-[2]"
       />
     </div>
     <div class="flex flex-col text-center gap-2 md:gap-4 lg:gap-5">
