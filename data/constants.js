@@ -164,12 +164,12 @@ export const Projects = [
     `, 
   image: [
 // 'https://i.postimg.cc/VkdqP5N9/project-1.png' ,
-'https://i.postimg.cc/VvKC3cQH/project-2.png' ,
+// 'https://i.postimg.cc/VvKC3cQH/project-2.png' ,
 'https://i.postimg.cc/Bv21JFfF/project-3.png' ,
 'https://i.postimg.cc/pLFmBjTS/project-4.png' ,
 'https://i.postimg.cc/j5sCKkXV/project-5.png' ,
 // 'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
-'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
+// 'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
 'https://i.postimg.cc/RhwMH7G1/project-7.png' ,
     'https://i.postimg.cc/wTHtkMJx/project-8.png',
 
