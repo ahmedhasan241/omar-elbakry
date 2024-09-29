@@ -17,8 +17,8 @@
           Don't hesitate to send me a message or an e-mail. <br />I will get
           back to you as fast as I can.
         </p> -->
-        <div class="grid grid-cols-2 lg:grid-cols-3  gap-4 text-xl">
-          <div class="flex flex-row gap-x-6 justify-center">
+        <div class="flex flex-col md:flex-row justify-around  gap-4 text-xl">
+          <div class="flex flex-row gap-x-6">
             <a
               href="https://www.linkedin.com/in/omar-elbakry-495848250/"
               target="_blank"
@@ -31,7 +31,7 @@
 
             </a>
           </div>
-          <div class="flex flex-row items-center justify-center">
+          <div class="flex flex-row items-center">
             <a
               href="mailto:omarbss15@gmail.com"
               class="text-base md:text-lg font-bold hover:text-primary">
@@ -41,7 +41,7 @@
               omarbss15@gmail.com</a
             >
           </div>
-          <div class="flex flex-row items-center justify-center">
+          <div class="flex flex-row items-center">
 <a
   href="https://wa.me/201096126337?text=Hello, I would like to inquire about..."
   target="_blank"
