@@ -3,18 +3,20 @@ export const NAV_LINKS = [
     href: '#about',
     label: 'About me ',
   },
-  {
-    href: '#Brands',
-    label: 'Brands',
+    {
+    href: '#Campaigns',
+    label: 'Campaigns',
   },
+
   {
     href: '#Tools',
     label: 'Tools',
   },
-  {
-    href: '#Campaigns',
-    label: 'Campaigns',
+    {
+    href: '#Brands',
+    label: 'Brands',
   },
+
   // {
   //   href: '#',
   //   label: 'About me ',
@@ -148,6 +150,28 @@ export const Projects = [
     ,  image: [
     'https://i.postimg.cc/jjjcbVQf/case-5.png',
     'https://i.postimg.cc/kGMXjcd7/case-6.png'
+  ],
+
+  },
+  {
+    id: 7,
+
+    description: `
+ <div class="px-2 md:!px-6 shadow-md rounded-lg">
+   <h2 class="font-bold text-xl mb-4  text-center">Some Of My SALLA RESULTS.</h2>
+
+</div>
+    `, 
+  image: [
+'https://i.postimg.cc/VkdqP5N9/project-1.png' ,
+'https://i.postimg.cc/VvKC3cQH/project-2.png' ,
+'https://i.postimg.cc/Bv21JFfF/project-3.png' ,
+'https://i.postimg.cc/pLFmBjTS/project-4.png' ,
+'https://i.postimg.cc/j5sCKkXV/project-5.png' ,
+'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
+'https://i.postimg.cc/wBzjcbnt/project-6.png' ,
+'https://i.postimg.cc/RhwMH7G1/project-7.png' ,
+'https://i.postimg.cc/wTHtkMJx/project-8.png' ,
   ],
 
   },

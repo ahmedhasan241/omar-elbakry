@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Portfolio Template with Nuxt 3 & Tailwind CSS',
+  title: 'Omar Elbakry Media Buyer',
   htmlAttrs: {
     lang: 'en',
   },

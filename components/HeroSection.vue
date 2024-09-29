@@ -3,11 +3,11 @@
 <template>
   <section id="about" class="flex flex-col gap-10 py-4 sm:pb-10">
     <div
-      class="flex p-0.5 relative w-[150px] md:w-[350px] h-[150px] md:h-[350px] rounded-full mx-auto"
+      class="flex p-0.5 relative w-[150px] md:w-[350px] h-[165px] md:h-[380px] rounded-full mx-auto"
       v-motion-fade-visible-once
     >
       <div
-        class="absolute inset-0 overflow-hidden rounded-full flex items-center justify-center"
+        class="absolute inset-0 overflow-hidden  rounded-full flex items-center justify-center"
       >
         <div
           class="bg-gradient-to-r absolute inset-[-20px] from-cyan-400 to-primary specialSpin"
@@ -18,7 +18,7 @@
         loading="eager"
         src="https://i.postimg.cc/T1pwGZrN/IMG-5205.jpg"
         alt="programming"
-        class="w-full h-full rounded-full object-cover z-[2]"
+        class="w-[150px] md:w-[375px] h-[160px] md:h-[375px] rounded-full object-cover z-[2]"
       />
     </div>
     <div class="flex flex-col text-center gap-2 md:gap-4 lg:gap-5">
