@@ -26,7 +26,7 @@
 
     >
       <SwiperSlide v-for="(client, index) in clients" :key="index" clas>
-        <img :src="client" alt="Client Logo" class="border-4 border-black  rounded-full w-40 h-36 md:h-40" />
+        <img :src="client" alt="Client Logo" class="border-[2.5px] border-primary  rounded-full w-40 h-36 md:h-40" />
       </SwiperSlide>
     </Swiper>
   </div>
@@ -48,16 +48,16 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
 const clients = ref([
-  "https://i.postimg.cc/3wvkVyX4/client-1.webp",
-  "https://i.postimg.cc/qMvz0Dcd/client-2.jpg",
-  "https://i.postimg.cc/Y97CPd2Z/client-3.png",
-  "https://i.postimg.cc/8PcPxJDp/client-4.jpg",
-  "https://i.postimg.cc/XqJ4MhRH/client-5.avif",
-  "https://i.postimg.cc/kGp97s9n/client-6.webp",
-  "https://i.postimg.cc/J4sMPfct/client-7.png",
+  "https://i.postimg.cc/bwyyD7Yy/1.png",
+  "https://i.postimg.cc/KvcwnxTH/2.png",
+  "https://i.postimg.cc/Px33y8YV/3.png",
+  "https://i.postimg.cc/pdnz4hw1/4.png",
+  "https://i.postimg.cc/JzSBN7s3/5.png",
+  "https://i.postimg.cc/W3wFcMXS/6.png",
+  "https://i.postimg.cc/c1TgDBKL/7.png",
   // "https://i.postimg.cc/Fz8tMKgz/client-8.png",
-  "https://i.postimg.cc/W1MRyTDp/client-9.png",
-  "https://i.postimg.cc/fy6FHrD0/client-10.avif"
+  "https://i.postimg.cc/65m7K6fs/8.png",
+  "https://i.postimg.cc/L6ws7Cm2/9.png"
 ]);
 
 const tools = ref([

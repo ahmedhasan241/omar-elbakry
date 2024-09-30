@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="shadow-xl transition-all hover:shadow-primary">
     <div class="rounded-t-xl overflow-hidden relative group">
@@ -11,22 +9,26 @@
       />
 
       <div v-else>
-<swiper     :slidesPerView="1"
-    :spaceBetween="30"
-    :loop="true"
-    :pagination="{
-      clickable: true,
-    }"
-    :navigation="true"
-    :modules="modules" class="mySwiper">
-
-
-
-    <swiper-slide v-for="(img, index) in imgUrl" :key="index">
-      <img v-if="typeof img === 'string'" :src="img" alt="Project Image" class="d-block w-100" />
-    </swiper-slide>
-
-  </swiper>
+        <swiper
+          :slidesPerView="1"
+          :spaceBetween="30"
+          :loop="true"
+          :pagination="{
+            clickable: true,
+          }"
+          :navigation="true"
+          :modules="modules"
+          class="mySwiper"
+        >
+          <swiper-slide v-for="(img, index) in imgUrl" :key="index">
+            <img
+              v-if="typeof img === 'string'"
+              :src="img"
+              alt="Project Image"
+              class="d-block w-100"
+            />
+          </swiper-slide>
+        </swiper>
         <!-- <swiper
       :slides-per-view="1"
       space-between="30"
@@ -55,12 +57,12 @@
 </template>
 <script setup>
 // Import Swiper components
-import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Swiper, SwiperSlide } from "swiper/vue";
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/navigation";
 // Import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation } from "swiper/modules";
 
 const modules = [Navigation];
 const props = defineProps({
