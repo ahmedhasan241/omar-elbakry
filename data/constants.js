@@ -176,6 +176,67 @@ export const Projects = [
   ],
 
   },
+  {
+    id: 7,
 
+    description: `
+<div class="px-2 md:!px-6 shadow-md rounded-lg">
+  <ul class="list-disc space-y-2">
+    <li><strong>Marketing Objectives:</strong> Conversion Campaign</li>
+    <li><strong>Industry:</strong> Supplements</li>
+    <li><strong>Platform:</strong> Google Ads</li>
+    <li><strong>Total Purchases:</strong> 1440 Orders</li>
+    <li><strong>CPP (Cost Per Purchase):</strong> 59 SAR</li>
+    <li><strong>Sales:</strong> 602K SAR</li>
+    <li><strong>A.O.V:</strong> 418K SAR</li>
+    <li><strong>ROAS:</strong> 7</li>
+    <li><strong>Total Spend:</strong> 86K SAR</li>
+  </ul>
+</div>`
+    ,  image: [
+    'https://i.postimg.cc/MTfKy74M/result-4-4.jpg',
+    'https://i.postimg.cc/GmS4Gm2f/result-4-7.jpg',
+    'https://i.postimg.cc/rm4R82qP/result-4-6.jpg',
+  ],
+
+  },
+
+
+  {
+    id: 8,
+    description: `
+  <div class="px-2 md:!px-6 shadow-md rounded-lg">
+    <ul class="list-disc space-y-2">
+      <li><strong>Marketing Objectives:</strong> Conversion Campaign</li>
+      <li><strong>Industry:</strong> Restaurants</li>
+      <li><strong>Platform:</strong> Google Ads</li>
+      <li><strong>Goals:</strong> Get directions & Contacts</li>
+      <li><strong>Total Spend:</strong> 63K SAR</li>
+    </ul>
+  </div>`,
+    image: [
+ 'https://i.postimg.cc/yNdrpv7d/result-4-8.jpg'
+    ],
+  },
+  {
+    id: 9,
+
+    description: `
+ <div class="px-2 md:!px-6 shadow-md rounded-lg">
+   <h2 class="font-bold text-xl mb-4  text-center">Some Of My Zid Results.</h2>
+
+</div>
+    `, 
+  image: [
+
+'https://i.postimg.cc/MGg2yh1x/result-5-1.jpg' ,
+'https://i.postimg.cc/KzLXQJ5T/result-5-2.jpg' ,
+'https://i.postimg.cc/gk2S2g6K/result-5-3.jpg' ,
+'https://i.postimg.cc/jqZcmykn/result-5-4.jpg' ,
+
+
+  ],
+
+  },
 
 ]

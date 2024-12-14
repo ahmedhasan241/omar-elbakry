@@ -57,7 +57,10 @@ const clients = ref([
   "https://i.postimg.cc/c1TgDBKL/7.png",
   // "https://i.postimg.cc/Fz8tMKgz/client-8.png",
   "https://i.postimg.cc/65m7K6fs/8.png",
-  "https://i.postimg.cc/L6ws7Cm2/9.png"
+  "https://i.postimg.cc/L6ws7Cm2/9.png",
+  "https://i.postimg.cc/7hKfYHTw/lofo-1.png",
+  "https://i.postimg.cc/Z5G0qD0B/logo-2.png",
+  "https://i.postimg.cc/9fy0wtqx/logo-3.png",
 ]);
 
 const tools = ref([
